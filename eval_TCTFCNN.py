@@ -38,8 +38,6 @@ def parse_args():
 
     return args
 
-# Run with: & C:/Users/makth/AppData/Local/Microsoft/WindowsApps/python3.9.exe eval_TCTFCNN.py 
-
 if __name__ == '__main__':
     args = parse_args()
 
