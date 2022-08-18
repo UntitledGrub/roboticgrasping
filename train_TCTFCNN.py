@@ -268,6 +268,4 @@ def run():
 
 
 if __name__ == '__main__':
-    # Run with: & C:/Users/makth/AppData/Local/Microsoft/WindowsApps/python3.9.exe train_TCTFCNN.py 
-    # --network 'fcnn'/'tct' --dataset 'jacquard' or 'cornell' --datset-path [copy relative path]
     run()
