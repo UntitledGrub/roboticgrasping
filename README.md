@@ -5,14 +5,14 @@ A fully convolutional model with the same structure (predicting the quality map 
 
 ## Dependencies
 
-torch
-numpy
-matplotlib
-opencv-python
-torchsummary
-imageio
-sklearn
-scikit-image
+torch <br />
+numpy <br />
+matplotlib <br />
+opencv-python <br />
+torchsummary <br />
+imageio <br />
+sklearn <br />
+scikit-image <br />
 timm
 
 ## Setup
