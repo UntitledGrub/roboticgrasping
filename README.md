@@ -29,7 +29,9 @@ timm
 ## Evaluation
 
 ## Pretrained Models
-Along with the Python code you I have uploaded the best performing versions of the TCT model, the fully convolutional model and the model for the ablation study. 
+Along with the Python code you I have uploaded the best performing versions of the TCT model, the fully convolutional model and the model for the ablation study.
+
+To use the pretrained models, download and extract the pretrained_models zip file. 
 
 You can use these models and the eval.py script to reproduce my results. Note that the models trained on the Jacquard dataset are trained using a 0.95 training/test split, so you need to add '--split 0.95' when running evaluation on the models trained on the Jacquard dataset. Running the eval.py script with the following arguments to reproduce my results:
 
