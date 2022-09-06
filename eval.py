@@ -38,8 +38,6 @@ def parse_args():
 
     return args
 
-# Run with: & C:/Users/makth/AppData/Local/Microsoft/WindowsApps/python3.9.exe eval.py 
-# choose network path
 # --dataset jacquard --dataset-path datasets\Jacquard_Dataset --split 0.95 --iou-eval
 # --dataset cornell --dataset-path datasets\Cornell_dataset --iou-eval
 
