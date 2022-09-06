@@ -267,5 +267,4 @@ def run():
 
 
 if __name__ == '__main__':
-    # Run with: & C:/Users/makth/AppData/Local/Microsoft/WindowsApps/python3.9.exe train.py 
     run()
