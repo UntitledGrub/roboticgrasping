@@ -9,7 +9,7 @@ The main components are two top level scripts, train.py and eval.py, which are i
 
 Download and extract the Cornell (https://www.kaggle.com/datasets/oneoneliu/cornell-grasp) and Jacquard (https://jacquard.liris.cnrs.fr/index.php) datasets. Access to the Jacquard dataset must be requested from the team at Ecole Centrale de Lyon who created it, and it is used in this work with their permission. The Cornell dataset is available publicly. 
 
-Run the script generate_cornell_depth.py from the command line with the argument '--path <cornell_dataset_directory>' appended.
+Before training or evluating a model, run the script generate_cornell_depth.py from the command line with the argument '--path <cornell_dataset_directory>'.
 
 ## Dependencies
 
