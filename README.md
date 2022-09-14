@@ -29,7 +29,7 @@ timm
 ## Evaluation
 
 ## Pretrained Models
-Along with the Python code you I have uploaded the best performing versions of the TCT model, the fully convolutional model and the model for the ablation study.
+Along with the Python code I have uploaded the best performing versions of the TCT model, the fully convolutional model and the model for the ablation study.
 
 To use the pretrained models, download them from [here](https://drive.google.com/file/d/1l5RKy4Y8sDSC9-BvUsDuEeIukYSJ4pj1/view?usp=sharing). 
 
