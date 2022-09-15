@@ -39,3 +39,6 @@ You can use these models and the eval.py script to reproduce my results. Note th
 --network 'path_to_model' --dataset cornell --dataset-path datasets\Cornell_dataset --iou-eval
 
 ## Results
+
+
+## Acknowledgement
