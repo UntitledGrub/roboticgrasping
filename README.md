@@ -42,11 +42,12 @@ eval.py --network 'path_to_model' --dataset cornell --dataset-path datasets\Corn
 ## Results
 
 ![image](https://user-images.githubusercontent.com/34168073/191499512-9e643fb7-a11b-400b-858d-b205e6c00b27.png)
-Example of the trained model's output. The image in the top left of the figure is part of the validation dataset, and was unseen during training. The model is able to filter out irrelevant regions of the image as areas of the quality map outside the boundaries of the object pictured have a grasp quality score of 0. The grasp quality map approximately follows the shape of the object. Likewise, the model’s width and grasp predictions modulate around the region the pictured object occupies with the background of the image being ignored.
+
+An Example of the trained model's output. The image in the top left of the figure is part of the validation dataset, and was unseen during training. The model is able to filter out irrelevant regions of the image as areas of the quality map outside the boundaries of the object pictured have a grasp quality score of 0. The grasp quality map approximately follows the shape of the object. Likewise, the model’s width and grasp predictions modulate around the region the pictured object occupies with the background of the image being ignored.
 
 ![image](https://user-images.githubusercontent.com/34168073/191499725-c57ad855-4ecf-460f-99bc-aef68ba8b1e4.png)
-Comparison of TCT network performance with state of the art pixel-wise grasp detection models *Reported inference speeds in these studies were measured on different hardware so comparison is not possible
 
+Comparison of TCT network performance with state of the art pixel-wise grasp detection models *Reported inference speeds in these studies were measured on different hardware so comparison is not possible
 
 ## Acknowledgement
 
