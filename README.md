@@ -34,7 +34,7 @@ Along with the Python code I have uploaded the best performing versions of the T
 
 To use the pretrained models, download them from [here](https://drive.google.com/file/d/1l5RKy4Y8sDSC9-BvUsDuEeIukYSJ4pj1/view?usp=sharing). 
 
-You can use these models and the eval.py script to reproduce my results. Note that the models trained on the Jacquard dataset are trained using a 0.95 training/test split, so you need to add '--split 0.95' when running evaluation on the models trained on the Jacquard dataset. Running the eval.py script with the following arguments to reproduce my results:
+You can use these models and the eval.py script to reproduce my results. Note that the models trained on the Jacquard dataset are trained using a 0.95 training/test split, so you need to add '--split 0.95' when running evaluation on the models trained on the Jacquard dataset. Run the eval.py script with the following commands to reproduce my results:
 
 eval.py --network 'path_to_model' --dataset jacquard --dataset-path datasets\Jacquard_Dataset --split 0.95 --iou-eval <br />
 eval.py --network 'path_to_model' --dataset cornell --dataset-path datasets\Cornell_dataset --iou-eval
