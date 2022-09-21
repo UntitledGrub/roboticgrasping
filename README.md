@@ -26,8 +26,17 @@ timm
 
 ## Training
 
+Models are trained using the train.py script. Run python train.py --help to see a list of training settings you can change, such as batch size or number of training epochs. 
+
+Example: python train.py --network TCT --dataset Jacquard --dataset-path <path to Jacquard dataset> --split 0.95
+
+Train models are saved in the folder outputs. 
 
 ## Evaluation
+
+Models are evaluated using the eval.py script. As with train.py, you can use python eval.py --help to see a full list of options, including outputting visulations of network predictions using --vis. To compute and print accuracy, use --iou-eval when running the script. 
+
+Example: python eval.py --network <path to saved model> --dataset Jacquard --dataset-path <path to Jacquard dataset> --split 0.95 --iou-eval
 
 ## Pretrained Models
 Along with the Python code I have uploaded the best performing versions of the TCT model, the fully convolutional model and the model for the ablation study.
