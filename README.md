@@ -14,6 +14,7 @@ Before training or evaluating a model, run the script generate_cornell_depth.py 
 ## Dependencies
 
 torch <br />
+Cuda 11.3 <br />
 numpy <br />
 matplotlib <br />
 opencv-python <br />
@@ -42,3 +43,7 @@ eval.py --network 'path_to_model' --dataset cornell --dataset-path datasets\Corn
 
 
 ## Acknowledgement
+
+Dataset processing, training and evaluation code inspired and modified from https://github.com/dougsm/ggcnn. 
+
+The Swin transformer code used here is an adapted version of the original Swin transformer code which can be found here: https://github.com/microsoft/Swin-Transformer.
