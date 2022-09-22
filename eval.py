@@ -79,13 +79,13 @@ if __name__ == '__main__':
 
             logging.info('Processing {}/{}'.format(idx+1, len(test_data)))
 
-            start = time.time()
+            start = time.perf_counter()
 
             xc = x.to(device)
             yc = [yi.to(device) for yi in y]
             lossd = net.compute_loss(xc, yc)
 
-            total_inference_time += time.time() - start
+            total_inference_time += time.perf_counter() - start
 
             q_img, ang_img, width_img = post_process_output(lossd['pred']['pos'], lossd['pred']['cos'],
                                                         lossd['pred']['sin'], lossd['pred']['width'])
